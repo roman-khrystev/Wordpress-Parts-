@@ -25,7 +25,7 @@ if ($categories) {
     $related_posts = new WP_Query($args);
 
     if ($related_posts->have_posts()) {
-        echo '  <div class="block"><div class="container"><h2 class="h2">' . pll__('Схожі послуги') . '</h2><ul class="same-posts">';
+        echo '  <div class="block"><div class="container"><h2 class="h2">TITLE</h2><ul class="same-posts">';
         while ($related_posts->have_posts()) {
             $related_posts->the_post();
             ?>
