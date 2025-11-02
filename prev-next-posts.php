@@ -1,6 +1,6 @@
 <?php
-$prev = get_previous_post();
-$next = get_next_post();
+$prev = get_previous_post(true);
+$next = get_next_post(true);
 ?>
 
 <?php if ( $prev ): ?>
